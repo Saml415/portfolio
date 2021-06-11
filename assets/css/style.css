@@ -89,7 +89,18 @@ h1{
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    font-size: 18px;
    word-wrap: normal;
+  
    
+  }
+
+  .workimg{
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    border: solid 8px #46abdd;
+    margin-top: 4px;
   }
 
   .contactlistings{
@@ -111,3 +122,4 @@ h1{
      
       
   }
+
