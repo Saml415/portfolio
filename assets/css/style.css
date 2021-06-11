@@ -8,6 +8,7 @@ body{
 h1{
     background-color:#46abdd;
     color: rgba(0, 0, 0, 0.76);
+
    
     
 
@@ -76,4 +77,37 @@ h1{
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       color: #2a607c;
       font-weight: 600;
+      background-color:rgb(202, 202, 202);
+      border-bottom: 4px solid currentColor;
+      text-align: center;
+      width: 50%;
+      margin:auto;
+      
+  }
+
+  p{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 18px;
+   word-wrap: normal;
+   
+  }
+
+  .contactlistings{
+      list-style-type: none;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: rgba(0, 0, 0, 0.76);
+      text-align: center;
+      margin-top: 18px;
+      
+      
+      
+  }
+
+  .contactlistings li{
+      display: inline-block;
+      border-bottom: 4px solid #46abdd;
+      margin: 4px;
+     
+     
+      
   }
