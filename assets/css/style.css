@@ -33,3 +33,9 @@ nav ul li a{
   color: var(--starryblue);
   border-bottom: solid 4px var(--starryblue);
 }
+
+.hero{
+  width: 100%;
+  height:256px;
+  
+}
