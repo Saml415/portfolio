@@ -45,10 +45,8 @@ nav ul li a{
 .subtitle h1{
  position: absolute;
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- bottom:5%;
- left:18%;
  text-align: center;
- background-color: var(--starryblue)
+ background-color: var(--starryblue);
 }
 
  .headings{
@@ -70,28 +68,34 @@ nav ul li a{
   margin-bottom: 1em;
  }
 
- #work{
-   text-align: center;
+ .workfig{
+   width: 250px;
+   margin: 0 auto;
+   position: relative;
  }
+ 
  .workimg{
    height: 175px;
    width: 250px;
    margin-top: 12px;
    border: solid 4px cornflowerblue; 
-   
+   z-index: 1;
    
  }
 
  .workdesc{
    position: absolute;
-   margin-top: 25%;
-   left:25%;
    background-color:cornflowerblue;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    padding: 4px;
    font-size: 24px;
    font-weight: bold;
-   }
+   bottom: 0;
+   left: 0;
+   z-index: 2;
+   margin-bottom: 12px;
+ }
+  
 
    .wordsub{
      font-size: 12px;
