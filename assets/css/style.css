@@ -154,5 +154,17 @@ nav ul li a{
       border-bottom: solid 4px cornflowerblue;
       width: 90%;
     }
-  
-}
+    
+     .workfig{
+      width: 250px;
+      position: relative;
+      justify-content: center;
+     }
+
+   .contactlistings li{
+      margin-top: 16px;
+      margin-bottom: 24px;
+      display: inline-block;
+    }  
+  }
+
