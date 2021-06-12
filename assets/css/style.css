@@ -99,3 +99,15 @@ nav ul li a{
      text-align: left;
       
    }
+
+
+ .contactlistings li{
+   margin-top: 16px;
+ }  
+.contactlistings a{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-bottom: solid 4px cornflowerblue;
+  margin-left: 8px;
+  
+  
+}
