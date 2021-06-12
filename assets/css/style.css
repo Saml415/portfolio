@@ -48,7 +48,7 @@ nav ul li a{
  bottom:5%;
  left:18%;
  text-align: center;
- background-color: var(--starryblue);
+ background-color: var(--starryblue)
 }
 
  .headings{
@@ -73,23 +73,13 @@ nav ul li a{
  #work{
    text-align: center;
  }
-
- .workfig{
-   position: relative;
- }
-
- .workdesc,.wordsub{
-   position: absolute;
- }
  .workimg{
    height: 175px;
    width: 250px;
    margin-top: 12px;
    border: solid 4px cornflowerblue; 
-   position: relative;
-
    
-  
+   
  }
 
  .workdesc{
@@ -101,13 +91,12 @@ nav ul li a{
    padding: 4px;
    font-size: 24px;
    font-weight: bold;
-
    }
 
    .wordsub{
      font-size: 12px;
      text-align: left;
-     background-color:cornflowerblue;
+      
    }
 
 
