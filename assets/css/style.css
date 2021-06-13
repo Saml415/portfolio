@@ -82,11 +82,26 @@ nav ul li a{
    width: 250px;
    margin: 0 auto;
    position: relative;
+   
  }
  
+
+ #playimg{
+  height: 175px;
+  width: 250px;
+  margin-top: 12px;
+  border: solid 4px cornflowerblue; 
+  z-index: 1;
+  margin: 0 auto;
+  position: relative;
+  
+}
+
+
+
  .workimg{
    height: 175px;
-   width: 250px;
+   width: 300px;
    margin-top: 12px;
    border: solid 4px cornflowerblue; 
    z-index: 1;
@@ -158,7 +173,8 @@ nav ul li a{
      .workfig{
       width: 250px;
       position: relative;
-      justify-content: center;
+      display: inline-block;
+      
      }
 
    .contactlistings li{
@@ -166,5 +182,38 @@ nav ul li a{
       margin-bottom: 24px;
       display: inline-block;
     }  
+
+   .workrow1 {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+   
+
+   }
+    #playimg{
+    height: 450px;
+    width: 650px;
+    margin-top: 24px;
+    border: solid 4px cornflowerblue;; 
+    z-index: 1;
+    }
+
+    .workrow2,.workrow3{
+      justify-content: center;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin:0 auto;
+      width:75%
+      
+      
+      
+    }
+    
+
+    
   }
 
+}
