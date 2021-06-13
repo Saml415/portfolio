@@ -88,7 +88,7 @@ nav ul li a{
 
  #playimg{
   height: 175px;
-  width: 250px;
+  width: 257px;
   margin-top: 12px;
   border: solid 4px cornflowerblue; 
   z-index: 1;
@@ -97,12 +97,15 @@ nav ul li a{
   
 }
 
-
+#work{
+  margin-top: 12px;
+}
 
  .workimg{
    height: 175px;
-   width: 300px;
-   margin-top: 12px;
+   width: 258px;
+   margin-top: 10px;
+   
    border: solid 4px cornflowerblue; 
    z-index: 1;
    
@@ -171,9 +174,12 @@ nav ul li a{
     }
     
      .workfig{
-      width: 250px;
-      position: relative;
-      display: inline-block;
+       padding: 0;
+       margin: 8px;
+       margin-right: 8px;
+       
+       
+     
       
      }
 
@@ -184,20 +190,20 @@ nav ul li a{
     }  
 
    .workrow1 {
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 0 auto;
-   
-
+    padding: 0;
+    margin: 0;
+    margin-right:200px ;
+    
    }
+
     #playimg{
-    height: 450px;
-    width: 650px;
-    margin-top: 24px;
-    border: solid 4px cornflowerblue;; 
-    z-index: 1;
+    width: 520px;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+    
+  
+    
     }
 
     .workrow2,.workrow3{
@@ -206,14 +212,27 @@ nav ul li a{
       flex-direction: row;
       align-items: center;
       margin:0 auto;
-      width:75%
+      margin-left: 162px;
+      margin-right: 100px;
       
       
       
     }
     
+    #work{
+     
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: fit-content;
+      margin: 0 auto;
+      margin-top: 10px;
+      
+     
 
-    
+    }
+    .workimg{
+      margin-top: 0px;
+    }
+  
   }
-
-}
