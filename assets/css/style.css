@@ -236,12 +236,31 @@ p {
     transform: translate(80%,-10%);
   }
 
+#aboutme, #work, #contact{
+  display: flex;
+  align-items: center;
+  
+  
+}h2.headings {
+  
+  border-right:solid 4px cornflowerblue;
+  text-align: right;
+  height: 238px;
+  border-bottom: none;
+  
+  
+
+}
+
+p{
+  flex-wrap: wrap;
+  text-align: left;
+  margin: 0 auto;
+}
 
 
 
 
 
 
-
-
-
+}
