@@ -1,3 +1,4 @@
+
 # portfolio
 
 ## Description
@@ -12,7 +13,7 @@ This repository is for my personal portfoilio. As a web developer it is importan
 
 
 
-
+![Capture](https://user-images.githubusercontent.com/81829274/122132815-69743280-cdf0-11eb-84dc-230327826739.PNG)
 
 
 
