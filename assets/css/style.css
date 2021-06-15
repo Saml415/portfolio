@@ -1,9 +1,10 @@
+/*Web backdrop and variables of color  */
 body {
   background-color: rgb(196, 192, 192);
   --starryblue: rgba(58, 94, 212, 0.671);
   --textblack: rgba(0, 0, 0, 0.774);
 }
-
+/* Header Background colors and font styles */
 header {
   background-color: var(--textblack);
 }
@@ -14,7 +15,7 @@ header h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: var(--textblack);
 }
-
+/* Navbar Stylings */
 nav {
   text-align: center;
 }
@@ -32,16 +33,18 @@ nav ul li a {
   color: var(--starryblue);
   border-bottom: solid 4px var(--starryblue);
 }
+/*Jumbotron Positioning  */
 .jumbotron {
   position: relative;
   margin: 0 auto;
 }
+/* Jumbotron Image */
 .hero {
   width: 100%;
   height: 256px;
   margin: 0 auto;
 }
-
+/* Jumbotron Subtitle */
 .subtitle h1 {
   position: absolute;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -51,8 +54,10 @@ nav ul li a {
   transform: translate(-50%, -10%);
   text-align: center;
 }
-
-.headings, .workheadings, .contactheadings  {
+/* Heading Title Stylings */
+.headings,
+.workheadings,
+.contactheadings {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 32px;
   margin-top: 32px;
@@ -60,11 +65,8 @@ nav ul li a {
   color: rgba(43, 78, 145, 0.678);
   border-bottom: solid 4px cornflowerblue;
   width: 90%;
-  
 }
-
-
-
+/* About Me text Stylings */
 p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
@@ -74,13 +76,13 @@ p {
   color: rgba(43, 78, 145, 0.678);
   margin-bottom: 1em;
 }
-
+/* Work Figure Positioning */
 .workfig {
   width: 250px;
   margin: 0 auto;
   position: relative;
 }
-
+/* Player Evaluator Styling */
 #playimg {
   height: 175px;
   width: 257px;
@@ -92,9 +94,9 @@ p {
 }
 
 #work {
-  margin-top: 12px;
+  margin-top: 22px;
 }
-
+/* Work Images and Captions */
 .workimg {
   height: 175px;
   width: 258px;
@@ -121,7 +123,7 @@ p {
   font-size: 12px;
   text-align: left;
 }
-
+/* Contact Section */
 .contactlistings li {
   margin-top: 16px;
   margin-bottom: 24px;
@@ -131,7 +133,7 @@ p {
   border-bottom: solid 4px cornflowerblue;
   margin-left: 8px;
 }
-
+/* Media Queries for Tablet View */
 @media screen and (min-width: 586px) {
   nav ul li {
     padding: 10px;
@@ -166,6 +168,7 @@ p {
     padding: 0;
     margin: 8px;
     margin-right: 8px;
+    opacity: 50%;
   }
 
   .contactlistings li {
@@ -185,6 +188,7 @@ p {
     height: 250px;
     margin: 0 auto;
     position: relative;
+    opacity: 50%;
   }
 
   .workrow2,
@@ -210,18 +214,17 @@ p {
     margin-top: 0px;
   }
 }
-
+/* Media Queries for Desktop View */
 @media screen and (min-width: 1180px) {
   header {
     justify-content: space-between;
     display: flex;
     align-items: center;
   }
-  header h1{
+  header h1 {
     font-size: 48px;
     width: 20%;
     text-align: right;
-    
   }
 
   nav {
@@ -233,56 +236,47 @@ p {
   }
 
   .subtitle h1 {
-    transform: translate(80%,-10%);
+    transform: translate(80%, -10%);
   }
 
-#aboutme, #work, #contact{
-  display: flex;
-  align-items: center;
-  
-  
-}h2.headings {
-  
-  border-right:solid 4px cornflowerblue;
-  text-align: right;
-  height: 238px;
-  border-bottom: none;
-  width: 40%;
-  
-  
+  #aboutme,
+  #work,
+  #contact {
+    display: flex;
+    align-items: center;
+  }
+  h2.headings {
+    border-right: solid 4px cornflowerblue;
+    text-align: right;
+    height: 238px;
+    border-bottom: none;
+    width: 40%;
+  }
 
+  p {
+    flex-wrap: wrap;
+    text-align: left;
+    margin: 0 auto;
+  }
+
+  .contactheadings {
+    margin-left:20% ;
+    border-right: solid 4px cornflowerblue;
+    text-align: right;
+    height: 238px;
+    border-bottom: none;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    width: 10%;  
+  }
+  .contactlistings ul{
+    width: 90%;
+  }
+
+ 
 }
-
-p{
-  flex-wrap: wrap;
-  text-align: left;
-  margin: 0 auto;
-}
-
-
-}
-
-#work{
-  margin-left: 550px;
-  
-}
-
-
-#contact{
-  width:45%;
-}
-.contactheadings{
-  margin: 0 auto;
-  border-right:solid 4px cornflowerblue;
-  text-align: right;
-  height: 238px;
-  border-bottom: none;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-  sans-serif;
-}
-
-.contactlistings{
-  display: inline-block;
-}
-
+/* Pseudo Class for hovering over Wokr Images */
+#playimg,
+.workfig:hover {
+  opacity: 100%;
 }
