@@ -81,6 +81,7 @@ p {
   width: 250px;
   margin: 0 auto;
   position: relative;
+  opacity: 50%;
 }
 /* Player Evaluator Styling */
 #playimg {
@@ -168,7 +169,6 @@ p {
     padding: 0;
     margin: 8px;
     margin-right: 8px;
-    opacity: 50%;
   }
 
   .contactlistings li {
@@ -269,14 +269,15 @@ p {
       sans-serif;
     width: 10%;  
   }
-  .contactlistings ul{
-    width: 90%;
+  .contactlistings a{
+    margin-left: 48px;
   }
 
  
 }
-/* Pseudo Class for hovering over Wokr Images */
+/* Pseudo Class for hovering over Work Images */
 #playimg,
 .workfig:hover {
   opacity: 100%;
 }
+
